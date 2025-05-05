@@ -1,5 +1,13 @@
 # D602-Task-3-Program-Deployment
+### Overview
 
+### API Development & Containerization – FastAPI & Docker
+-	Deployed the trained model as a REST API using FastAPI, implementing two endpoints for health checks and real-time flight delay prediction based on airport and schedule inputs.
+-	Wrote comprehensive unit tests (pytest) for both valid and invalid requests; ensured robustness and error handling with custom HTTP responses.
+-	Containerized the API with a custom Dockerfile, exposing the service on port 8000 for scalable deployment; documented and resolved challenges around Conda vs. virtual environments and exception handling.
+
+
+### Files
 1. README.md - A file describing other files in this repository.
 
 2. D602 Task 3 Final.docx - A Word document file that contains the report for Task 3.

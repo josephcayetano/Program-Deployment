@@ -1,5 +1,6 @@
 # D602-Task-3-Program-Deployment
 ### Overview
+This project focuses on deploying a machine learning model for flight delay prediction through API development and containerization, ensuring scalability and reliability.
 
 ### API Development & Containerization – FastAPI & Docker
 -	Deployed the trained model as a REST API using FastAPI, implementing two endpoints for health checks and real-time flight delay prediction based on airport and schedule inputs.

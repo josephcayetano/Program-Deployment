@@ -1,11 +1,10 @@
 # Program Deployment
 ### Overview
-This project focuses on deploying a machine learning model for flight delay prediction through API development and containerization, ensuring scalability and reliability.
-
+This project focused on deploying a machine learning model to predict flight delays by building an API and packaging it with Docker for easy and reliable use.
 ### API Development & Containerization – FastAPI & Docker
--	Deployed the trained model as a REST API using FastAPI, implementing two endpoints for health checks and real-time flight delay prediction based on airport and schedule inputs.
--	Wrote comprehensive unit tests (pytest) for both valid and invalid requests; ensured robustness and error handling with custom HTTP responses.
--	Containerized the API with a custom Dockerfile, exposing the service on port 8000 for scalable deployment; documented and resolved challenges around Conda vs. virtual environments and exception handling.
+-	Deployed the model as a REST API using FastAPI, with endpoints for health checks and predicting delays based on airport and schedule data
+-	Wrote tests using pytest to check both correct and incorrect inputs, and added custom error messages for better user feedback
+-	Used Docker to package the API and run it on port 8000, solving setup issues with Conda and improving error handling
 
 
 ### Files
